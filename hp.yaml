@@ -73,9 +73,17 @@ sniffer:
       ports: [443, 8443]
       
 proxies:
-  - name: "hamedvpns🇬🇧"
+  - name: "🇬🇧 hamedvpns"
     type: ss
     server: series-a1.samanehha.co
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+
+  - name: "🇬🇧 hamedp71-1"
+    type: ss
+    server: series-a2.samanehha.co
     port: 443
     cipher: chacha20-ietf-poly1305
     password: W74XFALLLuw6m5IA
@@ -99,7 +107,7 @@ proxies:
     tls: false
     udp: true
 
-  - name: "hamedvpns🇩🇪"
+  - name: "🇩🇪 hamedvpns"
     type: vless
     server: 91.107.191.12
     port: 29376
@@ -108,7 +116,7 @@ proxies:
     tls: false
     udp: true
 
-  - name: "🇩🇪hamedvpns"
+  - name: "🇩🇪 hamedvpns-1"
     type: vless
     server: 152.233.35.228
     port: 8443
@@ -130,11 +138,12 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "hamedvpns🇬🇧"
+      - "🇬🇧 hamedvpns"
+      - "🇬🇧 hamedp71-1"
       - "🇦🇹 hamedvpns"
       - "🇸🇪 hamedvpns"
-      - "hamedvpns🇩🇪"
-      - "🇩🇪hamedvpns"
+      - "🇩🇪 hamedvpns"
+      - "🇩🇪 hamedvpns-1"
 
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -143,6 +152,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - "hamedvpns🇬🇧"
+      - "hamedp71::🇬🇧"
       - "🇦🇹 hamedvpns"
       - "🇸🇪 hamedvpns"
       - "hamedvpns🇩🇪"
