@@ -213,7 +213,7 @@ proxy-groups:
   - name: "اتصال❤️خودکار"
     type: url-test
     url: "http://www.google.com/generate_204"
-    interval: 30
+    interval: 120
     tolerance: 100
     proxies:
       - "🇬🇧 hamedvpns"
