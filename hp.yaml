@@ -73,15 +73,6 @@ sniffer:
       ports: [443, 8443]
       
 proxies:
-  - name: "hy2-hamedp71🏴‍☠️"
-    type: hysteria2
-    server: kevin.vpny.online
-    port: 22002
-    password: "@KevinZakarian"
-    obfs: salamander
-    obfs-password: "KevinZakarian"
-    skip-cert-verify: true
-
   - name: "hamedvpns🇩🇪"
     type: vless
     server: 91.107.191.12
@@ -113,7 +104,6 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "hy2-hamedp71🏴‍☠️"
       - "hamedvpns🇩🇪"
       - "🇩🇪hamedvpns"
 
@@ -123,7 +113,6 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - "hy2-hamedp71🏴‍☠️"
       - "hamedvpns🇩🇪"
       - "🇩🇪hamedvpns"
       
