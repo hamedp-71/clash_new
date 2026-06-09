@@ -151,12 +151,12 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - "hamedvpns🇬🇧"
-      - "hamedp71::🇬🇧"
+      - "🇬🇧 hamedvpns"
+      - "🇬🇧 hamedp71-1"
       - "🇦🇹 hamedvpns"
       - "🇸🇪 hamedvpns"
-      - "hamedvpns🇩🇪"
-      - "🇩🇪hamedvpns"
+      - "🇩🇪 hamedvpns"
+      - "🇩🇪 hamedvpns-1"
       
 rule-providers:
   malware:
