@@ -113,7 +113,6 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "🤍 وارپ"
       - "hy2-hamedp71🏴‍☠️"
       - "hamedvpns🇩🇪"
       - "🇩🇪hamedvpns"
@@ -127,15 +126,7 @@ proxy-groups:
       - "hy2-hamedp71🏴‍☠️"
       - "hamedvpns🇩🇪"
       - "🇩🇪hamedvpns"
-
-  - name: "🤍 وارپ"
-    type: url-test
-    url: "http://cp.cloudflare.com"
-    interval: 60
-    tolerance: 90
-    proxies:
-      # کانفیگ‌های وارپ در صورت وجود در اینجا قرار می‌گیرند
-
+      
 rule-providers:
   malware:
     type: http
