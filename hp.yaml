@@ -1,0 +1,213 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+mode: rule
+log-level: info
+keepalive: 25
+keep-alive-idle: 10
+keep-alive-interval: 15
+unified-delay: false
+geo-auto-update: true
+geo-update-interval: 168
+external-controller: '127.0.0.1:9090'
+secret: 'Hpp@19921992'
+external-ui: ui
+# external-ui-url: 'https://github.com/haishanh/yacd/archive/gh-pages.zip'
+external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
+external-controller-cors:
+  allow-origins: ['*']
+  allow-private-network: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+hosts: {}
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  respect-rules: true
+  use-hosts: true
+  use-system-hosts: false
+  nameserver:
+    - 'https://1.1.1.1/dns-query'
+    - 'https://8.8.8.8/dns-query'
+    - 'https://dns.quad9.net/dns-query'
+  proxy-server-nameserver:
+    - '178.22.122.100' # شکن
+    - '185.51.200.2'   # شکن
+    - '10.202.10.10'   # رادار
+    - '10.202.10.11'   # رادار
+  nameserver-policy:
+    'domain:+.ir': [proxy-server-nameserver]
+    'all': [nameserver]
+  fallback-filter:
+  geoip: true
+  geoip-code: IR
+  ipcidr:
+    - '240.0.0.0/4'
+  geosite:
+    - 'cn'
+  domain:
+    - '+.ir'
+tun:
+  enable: true
+  stack: gvisor
+  auto-route: true
+  strict-route: true
+  auto-detect-interface: true
+  dns-hijack:
+  - 'tcp://any:53'
+  - 'udp://any:53'
+  mtu: 1330
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
+    TLS:
+      ports: [443, 8443, 2053, 2083, 2087, 2096]
+    QUIC:
+      ports: [443, 8443]
+      
+proxies:
+  - name: "hy2-hamedp71🏴‍☠️"
+    type: hysteria2
+    server: kevin.vpny.online
+    port: 22002
+    password: "@KevinZakarian"
+    obfs: salamander
+    obfs-password: "KevinZakarian"
+    skip-cert-verify: true
+
+  - name: "hamedvpns🇩🇪"
+    type: vless
+    server: 91.107.191.12
+    port: 29376
+    uuid: 03bc875d-0d8e-49b6-9094-89a8159e65ee
+    network: tcp
+    tls: false
+    udp: true
+
+  - name: "🇩🇪hamedvpns"
+    type: vless
+    server: 152.233.35.228
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: de1.fromblancwithlove.com
+    skip-cert-verify: true
+    udp: true
+
+#warp
+#Arista
+#Rayan
+#BPB
+#Game
+
+proxy-groups:
+  - name: "💚خانه"
+    type: select
+    proxies: 
+      - "اتصال❤️خودکار"
+      - "🤍 وارپ"
+      - "hy2-hamedp71🏴‍☠️"
+      - "hamedvpns🇩🇪"
+      - "🇩🇪hamedvpns"
+
+  - name: "اتصال❤️خودکار"
+    type: url-test
+    url: "http://www.google.com/generate_204"
+    interval: 30
+    tolerance: 100
+    proxies:
+      - "hy2-hamedp71🏴‍☠️"
+      - "hamedvpns🇩🇪"
+      - "🇩🇪hamedvpns"
+
+  - name: "🤍 وارپ"
+    type: url-test
+    url: "http://cp.cloudflare.com"
+    interval: 60
+    tolerance: 90
+    proxies:
+      # کانفیگ‌های وارپ در صورت وجود در اینجا قرار می‌گیرند
+
+rule-providers:
+  malware:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt"
+    path: "./ruleset/malware.txt"
+    interval: 86400
+  malware-cidr:
+    type: http
+    format: text
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware-ip.txt"
+    path: "./ruleset/malware-cidr.txt"
+    interval: 86400
+  phishing:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt"
+    path: "./ruleset/phishing.txt"
+    interval: 86400
+  phishing-cidr:
+    type: http
+    format: text
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing-ip.txt"
+    path: "./ruleset/phishing-cidr.txt"
+    interval: 86400
+  cryptominers:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt"
+    path: "./ruleset/cryptominers.txt"
+    interval: 86400
+  category-ads-all:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.txt"
+    path: "./ruleset/category-ads-all.txt"
+    interval: 86400
+  ir:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
+    path: "./ruleset/ir.txt"
+    interval: 86400
+  ir-cidr:
+    type: http
+    format: text
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
+    path: "./ruleset/ir-cidr.txt"
+    interval: 86400
+
+rules:
+  - RULE-SET,malware,REJECT
+  - RULE-SET,phishing,REJECT
+  - RULE-SET,cryptominers,REJECT
+  - RULE-SET,category-ads-all,REJECT
+  - RULE-SET,malware-cidr,REJECT
+  - RULE-SET,phishing-cidr,REJECT
+  - GEOIP,IR,DIRECT
+  - RULE-SET,ir,DIRECT
+  - RULE-SET,ir-cidr,DIRECT
+  - MATCH,💚خانه
+
+ntp:
+  enable: true
+  server: time.cloudflare.com
+  port: 123
+  interval: 30
