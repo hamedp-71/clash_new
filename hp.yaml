@@ -128,6 +128,15 @@ proxies:
     udp: true
 
   # ================= NEW PROXIES =================
+
+  - name: "🇯🇵 hamedp71"
+    type: ss
+    server: 103.106.228.175
+    port: 8009
+    cipher: aes-256-gcm
+    password: "XKFKl2rULjIp74"
+    udp: true
+    
   - name: "🇸🇦 hamedp71"
     type: ss
     server: 156.244.8.155
@@ -203,6 +212,7 @@ proxy-groups:
       - "🇬🇧 hamedp71-2"
       - "🇬🇧 hamedp71-3"
       - "🇫🇷 hamedp71"
+      - "🇯🇵 hamedp71"
       - "🇳🇱 hamedp71"
       - "🇩🇪 hamedvpns-1"
       - "🇦🇹 hamedvpns"
@@ -223,6 +233,7 @@ proxy-groups:
       - "🇬🇧 hamedp71-2"
       - "🇬🇧 hamedp71-3"
       - "🇫🇷 hamedp71"
+      - "🇯🇵 hamedp71"
       - "🇳🇱 hamedp71"
       - "🇩🇪 hamedvpns-1"
       - "🇦🇹 hamedvpns"
