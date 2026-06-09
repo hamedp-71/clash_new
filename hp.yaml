@@ -73,6 +73,7 @@ sniffer:
       ports: [443, 8443]
       
 proxies:
+  # === کانفیگ‌های قبلی ===
   - name: "🇬🇧 hamedvpns"
     type: ss
     server: series-a1.samanehha.co
@@ -127,6 +128,310 @@ proxies:
     skip-cert-verify: true
     udp: true
 
+  # === کانفیگ‌های جدید (28 عدد) ===
+  - name: "hamedp71::🇬🇧 1"
+    type: vless
+    server: 152.233.28.196
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: uk1.fromblancwithlove.com
+    skip-cert-verify: true
+    udp: true
+
+  - name: "hamedp71::🇬🇧 2"
+    type: vless
+    server: 152.233.28.198
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: uk1.fromblancwithlove.com
+    skip-cert-verify: true
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇮🇱 1"
+    type: vless
+    server: 169.150.235.74
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: tlv-il.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇨🇦 1"
+    type: vless
+    server: 185.156.47.96
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: yyz-ca-01.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇯🇵 1"
+    type: vless
+    server: 178.249.213.177
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: jp1.fromblancwithlove.com
+    skip-cert-verify: true
+    udp: true
+
+  - name: "hamedp71::🇩🇪 1"
+    type: vless
+    server: 152.233.35.228
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: de1.fromblancwithlove.com
+    skip-cert-verify: true
+    udp: true
+
+  - name: "hamedp71::🇧🇪 1"
+    type: vless
+    server: 207.211.214.42
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: bru-be-01.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇳🇱 1"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+    skip-cert-verify: true
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇵🇱 1"
+    type: vless
+    server: 84.17.55.241
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: pl1.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇧🇪 2"
+    type: vless
+    server: 79.127.224.12
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: bru-be-01.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇬🇧 3"
+    type: vless
+    server: uk1.fromblancwithlove.com
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    skip-cert-verify: true
+    udp: true
+
+  - name: "hamedp71::🇪🇸 1"
+    type: vless
+    server: 212.102.48.217
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: mad-es.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇷🇴 1"
+    type: vless
+    server: 95.173.199.80
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: buh-ro-01.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇫🇷 1"
+    type: vless
+    server: 79.127.196.11
+    port: 8443
+    uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+    network: tcp
+    tls: true
+    servername: cdg-1.fromblancwithlove.com
+    skip-cert-verify: true
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇫🇷 2"
+    type: vless
+    server: cdg-1.fromblancwithlove.com
+    port: 8443
+    uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+    network: tcp
+    tls: true
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇳🇱 2"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+    alpn: [http/1.1]
+    udp: true
+
+  - name: "hamedp71::🇳🇱 3"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇳🇱 4"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+    skip-cert-verify: true
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇳🇱 5"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇳🇱 6"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+    skip-cert-verify: true
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇳🇱 7"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+    alpn: [http/1.1]
+    udp: true
+
+  - name: "hamedp71::🇬🇧 4"
+    type: vless
+    server: 152.233.28.198
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: uk1.fromblancwithlove.com
+    client-fingerprint: chrome
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇯🇵 2"
+    type: vless
+    server: 178.249.213.177
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: jp1.fromblancwithlove.com
+    client-fingerprint: chrome
+    udp: true
+
+  - name: "hamedp71::🇩🇪 2"
+    type: vless
+    server: 152.233.35.228
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: de1.fromblancwithlove.com
+    alpn: [http/1.1]
+    udp: true
+
+  - name: "hamedp71::🇭🇰 1"
+    type: vless
+    server: 84.17.37.19
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: hkg1.fromblancwithlove.com
+    skip-cert-verify: true
+    alpn: [h2]
+    udp: true
+
+  - name: "hamedp71::🇫🇷 3"
+    type: vless
+    server: 79.127.196.11
+    port: 8443
+    uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+    network: tcp
+    tls: true
+    servername: cdg-1.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇫🇷 4"
+    type: vless
+    server: 79.127.196.11
+    port: 8443
+    uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+    network: tcp
+    tls: true
+    servername: cdg-1.fromblancwithlove.com
+    udp: true
+
+  - name: "hamedp71::🇭🇰 2"
+    type: vless
+    server: 84.17.37.19
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    tls: true
+    servername: hkg1.fromblancwithlove.com
+    client-fingerprint: chrome
+    udp: true
+
 #warp
 #Arista
 #Rayan
@@ -144,6 +449,34 @@ proxy-groups:
       - "🇸🇪 hamedvpns"
       - "🇩🇪 hamedvpns"
       - "🇩🇪 hamedvpns-1"
+      - "hamedp71::🇬🇧 1"
+      - "hamedp71::🇬🇧 2"
+      - "hamedp71::🇮🇱 1"
+      - "hamedp71::🇨🇦 1"
+      - "hamedp71::🇯🇵 1"
+      - "hamedp71::🇩🇪 1"
+      - "hamedp71::🇧🇪 1"
+      - "hamedp71::🇳🇱 1"
+      - "hamedp71::🇵🇱 1"
+      - "hamedp71::🇧🇪 2"
+      - "hamedp71::🇬🇧 3"
+      - "hamedp71::🇪🇸 1"
+      - "hamedp71::🇷🇴 1"
+      - "hamedp71::🇫🇷 1"
+      - "hamedp71::🇫🇷 2"
+      - "hamedp71::🇳🇱 2"
+      - "hamedp71::🇳🇱 3"
+      - "hamedp71::🇳🇱 4"
+      - "hamedp71::🇳🇱 5"
+      - "hamedp71::🇳🇱 6"
+      - "hamedp71::🇳🇱 7"
+      - "hamedp71::🇬🇧 4"
+      - "hamedp71::🇯🇵 2"
+      - "hamedp71::🇩🇪 2"
+      - "hamedp71::🇭🇰 1"
+      - "hamedp71::🇫🇷 3"
+      - "hamedp71::🇫🇷 4"
+      - "hamedp71::🇭🇰 2"
 
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -157,6 +490,34 @@ proxy-groups:
       - "🇸🇪 hamedvpns"
       - "🇩🇪 hamedvpns"
       - "🇩🇪 hamedvpns-1"
+      - "hamedp71::🇬🇧 1"
+      - "hamedp71::🇬🇧 2"
+      - "hamedp71::🇮🇱 1"
+      - "hamedp71::🇨🇦 1"
+      - "hamedp71::🇯🇵 1"
+      - "hamedp71::🇩🇪 1"
+      - "hamedp71::🇧🇪 1"
+      - "hamedp71::🇳🇱 1"
+      - "hamedp71::🇵🇱 1"
+      - "hamedp71::🇧🇪 2"
+      - "hamedp71::🇬🇧 3"
+      - "hamedp71::🇪🇸 1"
+      - "hamedp71::🇷🇴 1"
+      - "hamedp71::🇫🇷 1"
+      - "hamedp71::🇫🇷 2"
+      - "hamedp71::🇳🇱 2"
+      - "hamedp71::🇳🇱 3"
+      - "hamedp71::🇳🇱 4"
+      - "hamedp71::🇳🇱 5"
+      - "hamedp71::🇳🇱 6"
+      - "hamedp71::🇳🇱 7"
+      - "hamedp71::🇬🇧 4"
+      - "hamedp71::🇯🇵 2"
+      - "hamedp71::🇩🇪 2"
+      - "hamedp71::🇭🇰 1"
+      - "hamedp71::🇫🇷 3"
+      - "hamedp71::🇫🇷 4"
+      - "hamedp71::🇭🇰 2"
       
 rule-providers:
   malware:
