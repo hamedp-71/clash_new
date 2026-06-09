@@ -73,6 +73,32 @@ sniffer:
       ports: [443, 8443]
       
 proxies:
+  - name: "hamedvpns🇬🇧"
+    type: ss
+    server: series-a1.samanehha.co
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+
+  - name: "🇦🇹 hamedvpns"
+    type: trojan
+    server: 185.126.236.44
+    port: 443
+    password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+    sni: www.mesaly.click
+    skip-cert-verify: true
+    udp: true
+
+  - name: "🇸🇪 hamedvpns"
+    type: vless
+    server: 62.60.251.131
+    port: 45656
+    uuid: d3d59da0-31a4-45da-bf9e-373c6ab140db
+    network: tcp
+    tls: false
+    udp: true
+
   - name: "hamedvpns🇩🇪"
     type: vless
     server: 91.107.191.12
@@ -104,6 +130,9 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
+      - "hamedvpns🇬🇧"
+      - "🇦🇹 hamedvpns"
+      - "🇸🇪 hamedvpns"
       - "hamedvpns🇩🇪"
       - "🇩🇪hamedvpns"
 
@@ -113,6 +142,9 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
+      - "hamedvpns🇬🇧"
+      - "🇦🇹 hamedvpns"
+      - "🇸🇪 hamedvpns"
       - "hamedvpns🇩🇪"
       - "🇩🇪hamedvpns"
       
