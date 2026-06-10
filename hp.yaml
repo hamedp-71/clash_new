@@ -136,7 +136,7 @@ proxies:
     password: "bce6c821-200d-421f-bf3d-7159e5246ea0"
     skip-cert-verify: true
 
-  - name: "🇩🇪 hamedvpns"
+  - name: "🇩🇪 hamedvpns-hy2"
     type: hysteria2
     server: 130.61.50.75
     port: 6443
@@ -306,7 +306,7 @@ proxy-groups:
     proxies: 
       - "اتصال❤️خودکار"
       - "🇺🇸 hamedvpns"
-      - "🇩🇪 hamedvpns"
+      - "🇩🇪 hamedvpns-hy2"
       - "🇬🇧 hamedvpns"
       - "🇬🇧 hamedp71-1"
       - "🇸🇪 hamedvpns"
@@ -336,7 +336,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - "🇺🇸 hamedvpns"
-      - "🇩🇪 hamedvpns"
+      - "🇩🇪 hamedvpns-hy2"
       - "🇬🇧 hamedvpns"
       - "🇬🇧 hamedp71-1"
       - "🇸🇪 hamedvpns"
