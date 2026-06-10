@@ -129,14 +129,14 @@ proxies:
 
   # ================= NEW PROXIES =================
 
-  - name: "🇺🇸 US ROSE"
+  - name: "🇺🇸 hamedvpns"
     type: hysteria2
     server: 155.248.209.237
     port: 33333
     password: "bce6c821-200d-421f-bf3d-7159e5246ea0"
     skip-cert-verify: true
 
-  - name: "🇩🇪 DE-hamedvpns"
+  - name: "🇩🇪 hamedvpns"
     type: hysteria2
     server: 130.61.50.75
     port: 6443
@@ -305,8 +305,8 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "🇺🇸 US ROSE"
-      - "🇩🇪 DE-hamedvpns"
+      - "🇺🇸 hamedvpns"
+      - "🇩🇪 hamedvpns"
       - "🇬🇧 hamedvpns"
       - "🇬🇧 hamedp71-1"
       - "🇸🇪 hamedvpns"
@@ -335,8 +335,8 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - "🇺🇸 US ROSE"
-      - "🇩🇪 DE-hamedvpns"
+      - "🇺🇸 hamedvpns"
+      - "🇩🇪 hamedvpns"
       - "🇬🇧 hamedvpns"
       - "🇬🇧 hamedp71-1"
       - "🇸🇪 hamedvpns"
