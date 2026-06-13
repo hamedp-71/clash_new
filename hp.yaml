@@ -143,6 +143,22 @@ proxies:
     skip-cert-verify: false
     udp: true
 
+  - name: "🇫🇮 hamedp71 (WS)"
+    type: vless
+    server: 141.193.213.10
+    port: 443
+    uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+    network: ws
+    tls: true
+    servername: octopusss4.com
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/tsghdws"
+      headers:
+        Host: octopusss4.com
+
 
 #warp
 #Arista
