@@ -159,8 +159,7 @@ proxies:
       headers:
         Host: octopusss4.com
 
-
-- name: "🏴‍☠️ hamedp71-1"
+  - name: "🏴‍☠️ hamedp71-1"
     type: vless
     server: 77.74.123.168
     port: 8443
