@@ -171,13 +171,14 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "🇺🇸 hamedvpns"
-      - "🇩🇪 hamedvpns-hy2"
       - "🇬🇧 hamedvpns"
       - "🇬🇧 hamedp71-1"
+      - "🇺🇸 hamedvpns"
+      - "🇩🇪 hamedvpns-hy2"
       - "🇬🇧 hamedp71-2"
       - "🇬🇧 hamedp71-3"
       - "🇫🇷 hamedp71"
+      - "🇫🇷 hamedp71 (VMess)"
       - "🇫🇮 hamedp71 (WS)"
 
   - name: "اتصال❤️خودکار"
@@ -186,13 +187,14 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - "🇺🇸 hamedvpns"
-      - "🇩🇪 hamedvpns-hy2"
       - "🇬🇧 hamedvpns"
       - "🇬🇧 hamedp71-1"
+      - "🇺🇸 hamedvpns"
+      - "🇩🇪 hamedvpns-hy2"
       - "🇬🇧 hamedp71-2"
       - "🇬🇧 hamedp71-3"
       - "🇫🇷 hamedp71"
+      - "🇫🇷 hamedp71 (VMess)"
       - "🇫🇮 hamedp71 (WS)"
       
 rule-providers:
