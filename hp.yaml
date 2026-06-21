@@ -118,6 +118,36 @@ proxies:
       headers:
         Host: www.multiplydose.com
 
+  - name: "hamedvpns-3"
+    type: trojan
+    server: 104.19.229.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.multiplydose.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.multiplydose.com
+
+  - name: "hamedvpns-4"
+    type: trojan
+    server: 104.19.230.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.multiplydose.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.multiplydose.com
+
   - name: "🇵🇱-@hamedvpns🔥"
     type: trojan
     server: 198.202.211.1
@@ -166,6 +196,36 @@ proxies:
   - name: "🇫🇷-hamedvpns⚡"
     type: trojan
     server: 198.202.211.1
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.ignitelimit.com
+
+  - name: "hamedvpns-5"
+    type: trojan
+    server: 104.19.230.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.ignitelimit.com
+
+  - name: "hamedvpns-6"
+    type: trojan
+    server: 104.19.229.21
     port: 443
     password: humanity
     network: ws
@@ -278,6 +338,10 @@ proxy-groups:
       - "🇵🇱-@hamedvpns👑"
       - "1-hamedvpns"
       - "2-hamedvpns"
+      - "hamedvpns-3"
+      - "hamedvpns-4"
+      - "hamedvpns-5"
+      - "hamedvpns-6"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
       
@@ -298,6 +362,10 @@ proxy-groups:
       - "🇵🇱-@hamedvpns👑"
       - "1-hamedvpns"
       - "2-hamedvpns"
+      - "hamedvpns-3"
+      - "hamedvpns-4"
+      - "hamedvpns-5"
+      - "hamedvpns-6"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
 
