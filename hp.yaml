@@ -118,17 +118,6 @@ proxies:
       headers:
         Host: www.creationlong.org
 
-  - name: "🏴‍☠️ hamedp71-5 (gRPC)"
-    type: vless
-    server: sca14.myfymain.com
-    port: 8880
-    uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-    network: grpc
-    tls: false
-    udp: true
-    grpc-opts:
-      grpc-service-name: ""
-
   - name: "🏴‍☠️ hamedp71-6 (Reality)"
     type: vless
     server: ru.faygo.bot
@@ -177,7 +166,6 @@ proxy-groups:
       - "@hamedvpns👑"
       - "🇺🇸 hamedvpns"
       - "🇩🇪 hamedvpns-hy2"
-      - "🏴‍☠️ hamedp71-5 (gRPC)"
       - "🏴‍☠️ hamedp71-6 (Reality)"
       - "🏴‍☠️ hamedp71-7 (WS)"
       
@@ -191,7 +179,6 @@ proxy-groups:
       - "@hamedvpns👑"
       - "🇺🇸 hamedvpns"
       - "🇩🇪 hamedvpns-hy2"
-      - "🏴‍☠️ hamedp71-5 (gRPC)"
       - "🏴‍☠️ hamedp71-6 (Reality)"
       - "🏴‍☠️ hamedp71-7 (WS)"
 
