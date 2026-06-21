@@ -118,7 +118,7 @@ proxies:
       headers:
         Host: www.creationlong.org
 
-  - name: "🏴‍☠️hamedp71-(Reality)"
+  - name: "🇷🇺-hamedp71-(Reality)"
     type: vless
     server: ru.faygo.bot
     port: 443
@@ -133,7 +133,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🏴‍☠️hamedp71-(WS)"
+  - name: "🇳🇱-hamedp71-(WS)"
     type: vless
     server: 45.130.125.126
     port: 2053
@@ -166,8 +166,8 @@ proxy-groups:
       - "🇵🇱-@hamedvpns👑"
       - "🇺🇸-hamedvpns"
       - "🇩🇪-hamedvpns-hy2"
-      - "🏴‍☠️hamedp71-(Reality)"
-      - "🏴‍☠️hamedp71-(WS)"
+      - "🇷🇺-hamedp71-(Reality)"
+      - "🇳🇱-hamedp71-(WS)"
       
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -179,8 +179,8 @@ proxy-groups:
       - "🇵🇱-@hamedvpns👑"
       - "🇺🇸-hamedvpns"
       - "🇩🇪-hamedvpns-hy2"
-      - "🏴‍☠️hamedp71-(Reality)"
-      - "🏴‍☠️hamedp71-(WS)"
+      - "🇷🇺-hamedp71-(Reality)"
+      - "🇳🇱-hamedp71-(WS)"
 
 rule-providers:
   malware:
