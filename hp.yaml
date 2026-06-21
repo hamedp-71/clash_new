@@ -121,20 +121,20 @@ proxies:
       headers:
         Host: www.gossipglove.com
 
-  - name: "؟-@hamedvpns-1"
+  - name: "🇳🇱-hamedvpns🙄"
     type: trojan
-    server: 104.17.121.43
+    server: 198.202.211.1
     port: 443
     password: humanity
     network: ws
-    sni: octopusss5.info
+    sni: www.multiplydose.com
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
     ws-opts:
       path: "/assignment"
       headers:
-        Host: octopusss5.info
+        Host: www.multiplydose.com
 
   - name: "🇵🇱-@hamedvpns🔥"
     type: trojan
@@ -181,6 +181,21 @@ proxies:
       headers:
         Host: www.creationlong.org
 
+  - name: "🇫🇷-hamedvpns"
+    type: trojan
+    server: 198.202.211.1
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.calmloud.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.calmloud.com
+
   - name: "🇷🇺-hamedp71-(Reality)"
     type: vless
     server: ru.faygo.bot
@@ -211,10 +226,11 @@ proxy-groups:
       - "🇺🇸-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇳🇱-@hamedvpns"
-      - "؟-@hamedvpns-1"
+      - "🇳🇱-hamedvpns🙄"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
+      - "🇫🇷-hamedvpns"
       - "🇷🇺-hamedp71-(Reality)"
       
   - name: "اتصال❤️خودکار"
@@ -227,10 +243,11 @@ proxy-groups:
       - "🇺🇸-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇳🇱-@hamedvpns"
-      - "؟-@hamedvpns-1"
+      - "🇳🇱-hamedvpns🙄"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
+      - "🇫🇷-hamedvpns"
       - "🇷🇺-hamedp71-(Reality)"
 
 rule-providers:
