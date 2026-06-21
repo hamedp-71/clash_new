@@ -124,7 +124,7 @@ proxies:
   - name: "🇵🇱-@hamedvpns-1"
     type: trojan
     server: 198.202.211.1
-    port: 80
+    port: 8443
     password: humanity
     network: ws
     sni: www.creationlong.org
