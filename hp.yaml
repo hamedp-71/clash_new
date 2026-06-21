@@ -121,6 +121,36 @@ proxies:
       headers:
         Host: www.gossipglove.com
 
+  - name: "🇵🇱-@hamedvpns-1"
+    type: trojan
+    server: 198.202.211.1
+    port: 80
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
+  - name: "🇵🇱-@hamedvpns🔥"
+    type: trojan
+    server: 198.202.211.1
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
   - name: "🇵🇱-@hamedvpns😉"
     type: trojan
     server: 104.19.230.21
@@ -139,21 +169,6 @@ proxies:
   - name: "🇵🇱-@hamedvpns👑"
     type: trojan
     server: 104.19.229.21
-    port: 443
-    password: humanity
-    network: ws
-    sni: www.creationlong.org
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: www.creationlong.org
-
-  - name: "🇵🇱-@hamedvpns"
-    type: trojan
-    server: 198.202.211.1
     port: 443
     password: humanity
     network: ws
@@ -191,14 +206,15 @@ proxy-groups:
   - name: "💚خانه"
     type: select
     proxies: 
-      - "اتصال❤️خودکار"     
-      - "🇺🇸-hamedvpns"
+      - "اتصال❤️خودکار"   
       - "🇩🇪-hamedvpns-hy2"
+      - "🇺🇸-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇳🇱-@hamedvpns"
+      - "🇵🇱-@hamedvpns-1"
+      - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
-      - "🇵🇱-@hamedvpns"
       - "🇷🇺-hamedp71-(Reality)"
       
   - name: "اتصال❤️خودکار"
@@ -207,13 +223,14 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - "🇺🇸-hamedvpns"
       - "🇩🇪-hamedvpns-hy2"
+      - "🇺🇸-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇳🇱-@hamedvpns"
+      - "🇵🇱-@hamedvpns-1"
+      - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
-      - "🇵🇱-@hamedvpns"
       - "🇷🇺-hamedp71-(Reality)"
 
 rule-providers:
