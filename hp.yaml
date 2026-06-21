@@ -193,6 +193,36 @@ proxies:
       headers:
         Host: www.calmloud.com
 
+  - name: "1-hamedvpns"
+    type: trojan
+    server: 104.19.229.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.calmloud.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.calmloud.com
+
+  - name: "2-hamedvpns"
+    type: trojan
+    server: 104.19.230.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.calmloud.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.calmloud.com
+
   - name: "🇳🇱-hamedp71-(WS)"
     type: vless
     server: 45.130.125.126
@@ -246,6 +276,8 @@ proxy-groups:
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
+      - "1-hamedvpns"
+      - "2-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
       
@@ -264,6 +296,8 @@ proxy-groups:
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
+      - "1-hamedvpns"
+      - "2-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
 
