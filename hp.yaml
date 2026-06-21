@@ -121,20 +121,20 @@ proxies:
       headers:
         Host: www.gossipglove.com
 
-  - name: "🇵🇱-@hamedvpns-1"
+  - name: "؟-@hamedvpns-1"
     type: trojan
-    server: 198.202.211.1
-    port: 8443
+    server: 104.17.121.43
+    port: 443
     password: humanity
     network: ws
-    sni: www.creationlong.org
+    sni: octopusss5.info
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
     ws-opts:
       path: "/assignment"
       headers:
-        Host: www.creationlong.org
+        Host: octopusss5.info
 
   - name: "🇵🇱-@hamedvpns🔥"
     type: trojan
