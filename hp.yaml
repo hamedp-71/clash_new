@@ -88,7 +88,49 @@ proxies:
     sni: dash.cloudflare.com
     skip-cert-verify: true
 
+  - name: "🇩🇪 hamedp71 (Reality 2)"
+    type: vless
+    server: 134.255.252.76
+    port: 9999
+    uuid: be88d265-a268-4ce1-ba06-516fa5c8471d
+    network: tcp
+    tls: true
+    udp: true
+    servername: varzesh3.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _kcz60zlz7bBTIXtK11MgHIrnVBF9sTJnU2MiLCwDF8
+      short-id: "02"
 
+  - name: "@hamedvpns😉"
+    type: trojan
+    server: 104.19.230.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
+  - name: "@hamedvpns👑"
+    type: trojan
+    server: 104.19.229.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
 
 #warp
 #Arista
@@ -101,17 +143,23 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
+      - "@hamedvpns😉"
+      - "@hamedvpns👑"
       - "🇺🇸 hamedvpns"
       - "🇩🇪 hamedvpns-hy2"
-
+      - "🇩🇪 hamedp71 (Reality 2)"
+      
   - name: "اتصال❤️خودکار"
     type: url-test
     url: "http://www.google.com/generate_204"
     interval: 120
     tolerance: 100
     proxies:
+      - "@hamedvpns😉"
+      - "@hamedvpns👑"
       - "🇺🇸 hamedvpns"
       - "🇩🇪 hamedvpns-hy2"
+      - "🇩🇪 hamedp71 (Reality 2)"
 
 rule-providers:
   malware:
