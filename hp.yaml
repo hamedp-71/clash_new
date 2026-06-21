@@ -163,6 +163,21 @@ proxies:
       headers:
         Host: www.creationlong.org
 
+  - name: "🇫🇷-hamedvpns⚡"
+    type: trojan
+    server: 198.202.211.1
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.ignitelimit.com
+
   - name: "🇫🇷-hamedvpns"
     type: trojan
     server: 198.202.211.1
@@ -225,11 +240,12 @@ proxy-groups:
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       - "🇳🇱-@hamedvpns"
+      - "🇫🇷-hamedvpns⚡"
+      - "🇫🇷-hamedvpns"
       - "🇳🇱-hamedvpns🙄"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
-      - "🇫🇷-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
       
@@ -243,11 +259,12 @@ proxy-groups:
       - "🇺🇸-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇳🇱-@hamedvpns"
+      - "🇫🇷-hamedvpns⚡"
+      - "🇫🇷-hamedvpns"
       - "🇳🇱-hamedvpns🙄"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
-      - "🇫🇷-hamedvpns"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
 
