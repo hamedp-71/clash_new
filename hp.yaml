@@ -73,14 +73,14 @@ sniffer:
       ports: [443, 8443]
       
 proxies:
-  - name: "🇺🇸 hamedvpns"
+  - name: "🇺🇸-hamedvpns"
     type: hysteria2
     server: 155.248.209.237
     port: 33333
     password: "bce6c821-200d-421f-bf3d-7159e5246ea0"
     skip-cert-verify: true
 
-  - name: "🇩🇪 hamedvpns-hy2"
+  - name: "🇩🇪-hamedvpns-hy2"
     type: hysteria2
     server: 130.61.50.75
     port: 6443
@@ -88,7 +88,7 @@ proxies:
     sni: dash.cloudflare.com
     skip-cert-verify: true
 
-  - name: "@hamedvpns😉"
+  - name: "🇵🇱-@hamedvpns😉"
     type: trojan
     server: 104.19.230.21
     port: 443
@@ -103,7 +103,7 @@ proxies:
       headers:
         Host: www.creationlong.org
 
-  - name: "@hamedvpns👑"
+  - name: "🇵🇱-@hamedvpns👑"
     type: trojan
     server: 104.19.229.21
     port: 443
@@ -118,7 +118,7 @@ proxies:
       headers:
         Host: www.creationlong.org
 
-  - name: "🏴‍☠️ hamedp71-6 (Reality)"
+  - name: "🏴‍☠️hamedp71-(Reality)"
     type: vless
     server: ru.faygo.bot
     port: 443
@@ -133,7 +133,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🏴‍☠️ hamedp71-7 (WS)"
+  - name: "🏴‍☠️hamedp71-(WS)"
     type: vless
     server: 45.130.125.126
     port: 2053
@@ -162,12 +162,12 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "@hamedvpns😉"
-      - "@hamedvpns👑"
-      - "🇺🇸 hamedvpns"
-      - "🇩🇪 hamedvpns-hy2"
-      - "🏴‍☠️ hamedp71-6 (Reality)"
-      - "🏴‍☠️ hamedp71-7 (WS)"
+      - "🇵🇱-@hamedvpns😉"
+      - "🇵🇱-@hamedvpns👑"
+      - "🇺🇸-hamedvpns"
+      - "🇩🇪-hamedvpns-hy2"
+      - "🏴‍☠️hamedp71-(Reality)"
+      - "🏴‍☠️hamedp71-(WS)"
       
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -175,12 +175,12 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - "@hamedvpns😉"
-      - "@hamedvpns👑"
-      - "🇺🇸 hamedvpns"
-      - "🇩🇪 hamedvpns-hy2"
-      - "🏴‍☠️ hamedp71-6 (Reality)"
-      - "🏴‍☠️ hamedp71-7 (WS)"
+      - "🇵🇱-@hamedvpns😉"
+      - "🇵🇱-@hamedvpns👑"
+      - "🇺🇸-hamedvpns"
+      - "🇩🇪-hamedvpns-hy2"
+      - "🏴‍☠️hamedp71-(Reality)"
+      - "🏴‍☠️hamedp71-(WS)"
 
 rule-providers:
   malware:
