@@ -151,6 +151,21 @@ proxies:
       headers:
         Host: bpb-expo--10rayly4zy.expo.app
 
+  - name: "🇳🇱-@hamedvpns"
+    type: trojan
+    server: 198.202.211.1
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.gossipglove.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.gossipglove.com
+
 #warp
 #Arista
 #Rayan
@@ -168,6 +183,7 @@ proxy-groups:
       - "🇩🇪-hamedvpns-hy2"
       - "🇷🇺-hamedp71-(Reality)"
       - "🇳🇱-hamedp71-(WS)"
+      - "🇳🇱-@hamedvpns"
       
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -181,6 +197,7 @@ proxy-groups:
       - "🇩🇪-hamedvpns-hy2"
       - "🇷🇺-hamedp71-(Reality)"
       - "🇳🇱-hamedp71-(WS)"
+      - "🇳🇱-@hamedvpns"
 
 rule-providers:
   malware:
