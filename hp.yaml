@@ -88,51 +88,6 @@ proxies:
     sni: dash.cloudflare.com
     skip-cert-verify: true
 
-  - name: "🇵🇱-@hamedvpns😉"
-    type: trojan
-    server: 104.19.230.21
-    port: 443
-    password: humanity
-    network: ws
-    sni: www.creationlong.org
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: www.creationlong.org
-
-  - name: "🇵🇱-@hamedvpns👑"
-    type: trojan
-    server: 104.19.229.21
-    port: 443
-    password: humanity
-    network: ws
-    sni: www.creationlong.org
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: www.creationlong.org
-
-  - name: "🇷🇺-hamedp71-(Reality)"
-    type: vless
-    server: ru.faygo.bot
-    port: 443
-    uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: enterprisekitten.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
   - name: "🇳🇱-hamedp71-(WS)"
     type: vless
     server: 45.130.125.126
@@ -166,6 +121,66 @@ proxies:
       headers:
         Host: www.gossipglove.com
 
+  - name: "🇵🇱-@hamedvpns😉"
+    type: trojan
+    server: 104.19.230.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
+  - name: "🇵🇱-@hamedvpns👑"
+    type: trojan
+    server: 104.19.229.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
+  - name: "🇵🇱-@hamedvpns"
+    type: trojan
+    server: 198.202.211.1
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
+  - name: "🇷🇺-hamedp71-(Reality)"
+    type: vless
+    server: ru.faygo.bot
+    port: 443
+    uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: enterprisekitten.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+
 #warp
 #Arista
 #Rayan
@@ -176,14 +191,15 @@ proxy-groups:
   - name: "💚خانه"
     type: select
     proxies: 
-      - "اتصال❤️خودکار"
-      - "🇵🇱-@hamedvpns😉"
-      - "🇵🇱-@hamedvpns👑"
+      - "اتصال❤️خودکار"     
       - "🇺🇸-hamedvpns"
       - "🇩🇪-hamedvpns-hy2"
-      - "🇷🇺-hamedp71-(Reality)"
       - "🇳🇱-hamedp71-(WS)"
       - "🇳🇱-@hamedvpns"
+      - "🇵🇱-@hamedvpns😉"
+      - "🇵🇱-@hamedvpns👑"
+      - "🇵🇱-@hamedvpns"
+      - "🇷🇺-hamedp71-(Reality)"
       
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -191,13 +207,14 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - "🇵🇱-@hamedvpns😉"
-      - "🇵🇱-@hamedvpns👑"
       - "🇺🇸-hamedvpns"
       - "🇩🇪-hamedvpns-hy2"
-      - "🇷🇺-hamedp71-(Reality)"
       - "🇳🇱-hamedp71-(WS)"
       - "🇳🇱-@hamedvpns"
+      - "🇵🇱-@hamedvpns😉"
+      - "🇵🇱-@hamedvpns👑"
+      - "🇵🇱-@hamedvpns"
+      - "🇷🇺-hamedp71-(Reality)"
 
 rule-providers:
   malware:
