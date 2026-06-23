@@ -121,9 +121,39 @@ proxies:
       headers:
         Host: www.gossipglove.com
 
+  - name: "🇳🇱-@hamedvpns1"
+    type: trojan
+    server: 104.18.152.229
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.gossipglove.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.gossipglove.com
+
   - name: "🇳🇱-hamedvpns🙄"
     type: trojan
     server: 198.202.211.1
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.multiplydose.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.multiplydose.com
+
+  - name: "🇳🇱-hamedvpns🙄1"
+    type: trojan
+    server: 104.18.152.229
     port: 443
     password: humanity
     network: ws
@@ -211,6 +241,21 @@ proxies:
       headers:
         Host: www.creationlong.org
 
+  - name: "🇵🇱-@hamedvpns👑1"
+    type: trojan
+    server: 104.18.152.229
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
   - name: "🇫🇷-hamedvpns⚡"
     type: trojan
     server: 198.202.211.1
@@ -256,6 +301,21 @@ proxies:
       headers:
         Host: www.ignitelimit.com
 
+  - name: "hamedvpns-61"
+    type: trojan
+    server: 104.18.152.229
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.ignitelimit.com
+
   - name: "🇫🇷-hamedvpns"
     type: trojan
     server: 198.202.211.1
@@ -289,6 +349,21 @@ proxies:
   - name: "2-hamedvpns"
     type: trojan
     server: 104.19.230.21
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.calmloud.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.calmloud.com
+
+  - name: "2-hamedvpns1"
+    type: trojan
+    server: 104.18.152.229
     port: 443
     password: humanity
     network: ws
@@ -350,18 +425,23 @@ proxy-groups:
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       - "🇳🇱-@hamedvpns"
-      - "🇫🇷-hamedvpns⚡"
-      - "🇫🇷-hamedvpns"
+      - "🇳🇱-@hamedvpns1"
       - "🇳🇱-hamedvpns🙄"
+      - "🇳🇱-hamedvpns🙄1"
+      - "hamedvpns-3"
+      - "hamedvpns-4"
+      - "🇫🇷-hamedvpns⚡"
+      - "hamedvpns-5"
+      - "hamedvpns-6"
+      - "hamedvpns-61"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
+      - "🇵🇱-@hamedvpns👑1"
+      - "🇫🇷-hamedvpns"
       - "1-hamedvpns"
       - "2-hamedvpns"
-      - "hamedvpns-3"
-      - "hamedvpns-4"
-      - "hamedvpns-5"
-      - "hamedvpns-6"
+      - "2-hamedvpns1"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
       
@@ -376,18 +456,23 @@ proxy-groups:
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       - "🇳🇱-@hamedvpns"
-      - "🇫🇷-hamedvpns⚡"
-      - "🇫🇷-hamedvpns"
+      - "🇳🇱-@hamedvpns1"
       - "🇳🇱-hamedvpns🙄"
+      - "🇳🇱-hamedvpns🙄1"
+      - "hamedvpns-3"
+      - "hamedvpns-4"
+      - "🇫🇷-hamedvpns⚡"
+      - "hamedvpns-5"
+      - "hamedvpns-6"
+      - "hamedvpns-61"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
+      - "🇵🇱-@hamedvpns👑1"
+      - "🇫🇷-hamedvpns"
       - "1-hamedvpns"
       - "2-hamedvpns"
-      - "hamedvpns-3"
-      - "hamedvpns-4"
-      - "hamedvpns-5"
-      - "hamedvpns-6"
+      - "2-hamedvpns1"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
 
