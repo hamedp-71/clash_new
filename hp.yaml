@@ -358,6 +358,81 @@ proxies:
       headers:
         Host: www.calmloud.com
 
+  - name: "h1-hamedvpns-🇫🇷"
+    type: trojan
+    server: 104.18.7.147
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.gossipglove.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.gossipglove.com
+
+  - name: "h2-hamedvpns-🇫🇷"
+    type: trojan
+    server: 104.18.7.147
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.multiplydose.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.multiplydose.com
+
+  - name: "h3-hamedvpns-🇫🇷"
+    type: trojan
+    server: 104.18.7.147
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.creationlong.org
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.creationlong.org
+
+  - name: "h4-hamedvpns-🇫🇷"
+    type: trojan
+    server: 104.18.7.147
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.ignitelimit.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.ignitelimit.com
+
+  - name: "h5-hamedvpns-🇫🇷"
+    type: trojan
+    server: 104.18.7.147
+    port: 443
+    password: humanity
+    network: ws
+    sni: www.calmloud.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: www.calmloud.com
+
   - name: "🇳🇱-hamedp71-(WS)"
     type: vless
     server: 45.130.125.126
@@ -422,6 +497,11 @@ proxy-groups:
       - "1-hamedvpns"
       - "2-hamedvpns"
       - "2-hamedvpns-🇫🇷"
+      - "h1-hamedvpns-🇫🇷"
+      - "h2-hamedvpns-🇫🇷"
+      - "h3-hamedvpns-🇫🇷"
+      - "h4-hamedvpns-🇫🇷"
+      - "h5-hamedvpns-🇫🇷"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
       
@@ -451,6 +531,11 @@ proxy-groups:
       - "1-hamedvpns"
       - "2-hamedvpns"
       - "2-hamedvpns-🇫🇷"
+      - "h1-hamedvpns-🇫🇷"
+      - "h2-hamedvpns-🇫🇷"
+      - "h3-hamedvpns-🇫🇷"
+      - "h4-hamedvpns-🇫🇷"
+      - "h5-hamedvpns-🇫🇷"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
 
