@@ -73,24 +73,6 @@ sniffer:
       ports: [443, 8443]
       
 proxies:
-  - name: "🇧🇷 hamedp71 (hy2)"
-    type: hysteria2
-    server: 167.234.249.46
-    port: 444
-    password: "sysadmin.sysadmin"
-    sni: a.961229.xyz
-    skip-cert-verify: true
-
-  - name: "🇫🇮 hamedp71 (hy2)"
-    type: hysteria2
-    server: reddeadfan.rd-team.ru
-    port: 2026
-    password: "rstnnl2705:QtmSqzxgO95zXwNcgVYSjDl02aRsjrrl"
-    sni: reddeadfan.rd-team.ru
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: "FxZylbqClUqVqAs2nezW9kPyFb2edZ2"
-
   - name: "🇺🇸-hamedvpns"
     type: hysteria2
     server: 155.248.209.237
@@ -121,7 +103,7 @@ proxies:
       headers:
         Host: www.gossipglove.com
 
-  - name: "🇳🇱-@hamedvpns1"
+  - name: "🇫🇷-@hamedvpns"
     type: trojan
     server: 104.18.152.229
     port: 443
@@ -151,7 +133,7 @@ proxies:
       headers:
         Host: www.multiplydose.com
 
-  - name: "🇳🇱-hamedvpns🙄1"
+  - name: "🇫🇷-hamedvpns🙄"
     type: trojan
     server: 104.18.152.229
     port: 443
@@ -241,7 +223,7 @@ proxies:
       headers:
         Host: www.creationlong.org
 
-  - name: "🇵🇱-@hamedvpns👑1"
+  - name: "🇫🇷-@hamedvpns👑"
     type: trojan
     server: 104.18.152.229
     port: 443
@@ -301,7 +283,7 @@ proxies:
       headers:
         Host: www.ignitelimit.com
 
-  - name: "hamedvpns-61"
+  - name: "🇫🇷-hamedvpns-6"
     type: trojan
     server: 104.18.152.229
     port: 443
@@ -361,7 +343,7 @@ proxies:
       headers:
         Host: www.calmloud.com
 
-  - name: "2-hamedvpns1"
+  - name: "2-hamedvpns-🇫🇷"
     type: trojan
     server: 104.18.152.229
     port: 443
@@ -420,28 +402,26 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "🇧🇷 hamedp71 (hy2)"
-      - "🇫🇮 hamedp71 (hy2)"
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       - "🇳🇱-@hamedvpns"
-      - "🇳🇱-@hamedvpns1"
+      - "🇫🇷-@hamedvpns"
       - "🇳🇱-hamedvpns🙄"
-      - "🇳🇱-hamedvpns🙄1"
+      - "🇫🇷-hamedvpns🙄"
       - "hamedvpns-3"
       - "hamedvpns-4"
       - "🇫🇷-hamedvpns⚡"
       - "hamedvpns-5"
       - "hamedvpns-6"
-      - "hamedvpns-61"
+      - "🇫🇷-hamedvpns-6"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
-      - "🇵🇱-@hamedvpns👑1"
+      - "🇫🇷-@hamedvpns👑"
       - "🇫🇷-hamedvpns"
       - "1-hamedvpns"
       - "2-hamedvpns"
-      - "2-hamedvpns1"
+      - "2-hamedvpns-🇫🇷"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
       
@@ -451,28 +431,26 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - "🇧🇷 hamedp71 (hy2)"
-      - "🇫🇮 hamedp71 (hy2)"
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       - "🇳🇱-@hamedvpns"
-      - "🇳🇱-@hamedvpns1"
+      - "🇫🇷-@hamedvpns"
       - "🇳🇱-hamedvpns🙄"
-      - "🇳🇱-hamedvpns🙄1"
+      - "🇫🇷-hamedvpns🙄"
       - "hamedvpns-3"
       - "hamedvpns-4"
       - "🇫🇷-hamedvpns⚡"
       - "hamedvpns-5"
       - "hamedvpns-6"
-      - "hamedvpns-61"
+      - "🇫🇷-hamedvpns-6"
       - "🇵🇱-@hamedvpns🔥"
       - "🇵🇱-@hamedvpns😉"
       - "🇵🇱-@hamedvpns👑"
-      - "🇵🇱-@hamedvpns👑1"
+      - "🇫🇷-@hamedvpns👑"
       - "🇫🇷-hamedvpns"
       - "1-hamedvpns"
       - "2-hamedvpns"
-      - "2-hamedvpns1"
+      - "2-hamedvpns-🇫🇷"
       - "🇳🇱-hamedp71-(WS)"
       - "🇷🇺-hamedp71-(Reality)"
 
