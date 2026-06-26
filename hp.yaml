@@ -451,21 +451,22 @@ proxies:
       headers:
         Host: bpb-expo--10rayly4zy.expo.app
 
-  - name: "🇷🇺-hamedp71-(Reality)"
+  - name: "🏴‍☠️ hamedp71-8 (WS)"
     type: vless
-    server: ru.faygo.bot
-    port: 443
-    uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-    network: tcp
+    server: 104.16.72.162
+    port: 8443
+    uuid: f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93
+    network: ws
     tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: enterprisekitten.com
+    servername: srv37.hamiibar.com
     client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
+    skip-cert-verify: false
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: srv37.hamiibar.com
+        
 #warp
 #Arista
 #Rayan
@@ -479,6 +480,7 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
+      - "🏴‍☠️ hamedp71-8 (WS)"
       - "🇳🇱-@hamedvpns"
       - "🇫🇷-@hamedvpns"
       - "🇳🇱-hamedvpns🙄"
@@ -503,7 +505,6 @@ proxy-groups:
       - "h4-hamedvpns-🇫🇷"
       - "h5-hamedvpns-🇫🇷"
       - "🇳🇱-hamedp71-(WS)"
-      - "🇷🇺-hamedp71-(Reality)"
       
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -513,6 +514,7 @@ proxy-groups:
     proxies:
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
+      - "🏴‍☠️ hamedp71-8 (WS)"
       - "🇳🇱-@hamedvpns"
       - "🇫🇷-@hamedvpns"
       - "🇳🇱-hamedvpns🙄"
@@ -537,7 +539,6 @@ proxy-groups:
       - "h4-hamedvpns-🇫🇷"
       - "h5-hamedvpns-🇫🇷"
       - "🇳🇱-hamedp71-(WS)"
-      - "🇷🇺-hamedp71-(Reality)"
 
 rule-providers:
   malware:
