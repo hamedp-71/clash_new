@@ -466,6 +466,96 @@ proxies:
       path: "/"
       headers:
         Host: srv37.hamiibar.com
+
+  - name: "1-hamedvpns-🇹🇷"
+    type: vless
+    server: 45.196.201.163
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
+
+  - name: "2-hamedvpns-🇹🇷"
+    type: vless
+    server: 45.196.201.129
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
+
+  - name: "3-hamedvpns-🇹🇷"
+    type: vless
+    server: 45.196.201.156
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
+
+  - name: "4-hamedvpns-🇹🇷"
+    type: vless
+    server: 45.196.201.218
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
+
+  - name: "5-hamedvpns-🇹🇷"
+    type: vless
+    server: 45.196.201.159
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
+
+  - name: "6-hamedvpns-🇹🇷"
+    type: vless
+    server: 45.196.201.157
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
         
 #warp
 #Arista
@@ -478,6 +568,12 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
+      - "1-hamedvpns-🇹🇷"
+      - "2-hamedvpns-🇹🇷"
+      - "3-hamedvpns-🇹🇷"
+      - "4-hamedvpns-🇹🇷"
+      - "5-hamedvpns-🇹🇷"
+      - "6-hamedvpns-🇹🇷"
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       - "🏴‍☠️ hamedp71-8 (WS)"
@@ -512,6 +608,12 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - "1-hamedvpns-🇹🇷"
+      - "2-hamedvpns-🇹🇷"
+      - "3-hamedvpns-🇹🇷"
+      - "4-hamedvpns-🇹🇷"
+      - "5-hamedvpns-🇹🇷"
+      - "6-hamedvpns-🇹🇷"
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       - "🏴‍☠️ hamedp71-8 (WS)"
