@@ -117,21 +117,6 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "3-hamedvpns-🇹🇷"
-    type: vless
-    server: turok2.o4ka-internet.com
-    port: 443
-    uuid: a03df445-0666-4d61-acde-9705009e409c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: turok2.o4ka-internet.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-      short-id: 5629431325884ff0
-
   - name: "4-hamedvpns-🇫🇮"
     type: vless
     server: 77.238.236.134
@@ -147,22 +132,6 @@ proxies:
       headers:
         Host: forfreeuse.sub-flow.online
 
-  - name: "5-hamedvpns-🇺🇸"
-    type: vless
-    server: mybb.com
-    port: 443
-    uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: rayan-007.nastaran.dpdns.org
-
   - name: "6-hamedvpns-🇺🇸"
     type: vless
     server: 104.18.36.192
@@ -177,6 +146,35 @@ proxies:
       path: "/fdip"
       headers:
         Host: learn00.evany.de5.net
+
+
+  - name: "hamedp71:🇬🇧 1"
+    type: ss
+    server: 141.98.101.179
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+
+  - name: "hamedp71:🇬🇧 2"
+    type: ss
+    server: 141.98.101.181
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+
+  - name: "hamedp71:🇬🇧 3"
+    type: ss
+    server: 141.98.101.182
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+
+  - name: "hamedp71:🇬🇧 4"
+    type: ss
+    server: 141.98.101.178
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
         
 #warp
 #Arista
@@ -191,10 +189,12 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "1-hamedvpns-🇳🇱"
       - "2-hamedvpns-🇳🇱"
-      - "3-hamedvpns-🇹🇷"
       - "4-hamedvpns-🇫🇮"
-      - "5-hamedvpns-🇺🇸"
       - "6-hamedvpns-🇺🇸"
+      - "hamedp71:🇬🇧 1"
+      - "hamedp71:🇬🇧 2"
+      - "hamedp71:🇬🇧 3"
+      - "hamedp71:🇬🇧 4"
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       
@@ -206,10 +206,12 @@ proxy-groups:
     proxies:
       - "1-hamedvpns-🇳🇱"
       - "2-hamedvpns-🇳🇱"
-      - "3-hamedvpns-🇹🇷"
       - "4-hamedvpns-🇫🇮"
-      - "5-hamedvpns-🇺🇸"
       - "6-hamedvpns-🇺🇸"
+      - "hamedp71:🇬🇧 1"
+      - "hamedp71:🇬🇧 2"
+      - "hamedp71:🇬🇧 3"
+      - "hamedp71:🇬🇧 4"
       - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
 
