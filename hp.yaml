@@ -80,14 +80,6 @@ proxies:
     password: "bce6c821-200d-421f-bf3d-7159e5246ea0"
     skip-cert-verify: true
 
-  - name: "🇩🇪-hamedvpns-hy2"
-    type: hysteria2
-    server: 130.61.50.75
-    port: 6443
-    password: "zhangyang"
-    sni: dash.cloudflare.com
-    skip-cert-verify: true
-
   - name: "4-hamedvpns-🇫🇮"
     type: vless
     server: 77.238.236.134
@@ -187,7 +179,6 @@ proxy-groups:
       - "hamedp71:🇬🇧 2"
       - "hamedp71:🇬🇧 3"
       - "hamedp71:🇬🇧 4"
-      - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
       
   - name: "اتصال❤️خودکار"
@@ -205,7 +196,6 @@ proxy-groups:
       - "hamedp71:🇬🇧 2"
       - "hamedp71:🇬🇧 3"
       - "hamedp71:🇬🇧 4"
-      - "🇩🇪-hamedvpns-hy2"
       - "🇺🇸-hamedvpns"
 
 rule-providers:
