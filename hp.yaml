@@ -132,7 +132,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
 
-  - name: "hamedp71::🇫🇷"
+  - name: "hamedp71:🇫🇷"
     type: ss
     server: 137.74.119.18
     port: 10443
@@ -182,6 +182,7 @@ proxy-groups:
       - "6-hamedvpns-🇺🇸"
       - "hamedp71:🇳🇴"
       - "hamedp71:🇳🇱"
+      - "hamedp71:🇫🇷"
       - "hamedp71:🇬🇧 1"
       - "hamedp71:🇬🇧 2"
       - "hamedp71:🇬🇧 3"
@@ -199,6 +200,7 @@ proxy-groups:
       - "6-hamedvpns-🇺🇸"
       - "hamedp71:🇳🇴"
       - "hamedp71:🇳🇱"
+      - "hamedp71:🇫🇷"
       - "hamedp71:🇬🇧 1"
       - "hamedp71:🇬🇧 2"
       - "hamedp71:🇬🇧 3"
